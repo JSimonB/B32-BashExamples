@@ -15,6 +15,13 @@ do
 	clear
 	FaireEspace $i
 done
+sleep 0.5
+for ((i=0;i<3;i++))
+do
+	sleep 0.5
+	echo -n "."
+done
+sleep 1
 echo "BOOM!"
 sleep 1
 
